@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 3 versions"]
+      }
+    }],
+    "es2015",
+    "react",
+    "stage-2"
+  ],
+  "plugins": [],
+  "env": {
+    "test": {
+      "preset": ["jest"],
+      "plugins": ["rewire",
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}
