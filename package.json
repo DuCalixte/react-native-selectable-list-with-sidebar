@@ -1,17 +1,9 @@
 {
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "create-react-class": "^15.6.2",
-    "fbjs": "^0.8.16",
-    "graceful-fs": "^4.1.11",
-    "lodash": "^4.17.4",
-    "prop-types": "^15.6.0",
-    "yargs": "^10.1.1"
-  },
+  "dependencies": {},
   "name": "react-native-selectable-list-with-sidebar",
   "description": "A SectionList with a dynamic sidebar and multi language support allowing access to sections",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "index.js",
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "babel-plugin-rewire": "^1.1.0",
@@ -30,10 +22,6 @@
     "jest": "^22.1.1",
     "jest-cli": "^22.1.1",
     "mock-fs": "^4.4.2",
-    "react": "^16.2.0",
-    "react-native": "^0.52.0",
-    "react-native-swipe-actions": "^0.6.0",
-    "react-test-renderer": "^16.2.0",
     "sinon": "^4.1.6"
   },
   "scripts": {
@@ -60,5 +48,19 @@
   "bugs": {
     "url": "https://github.com/DuCalixte/react-native-selectable-list-with-sidebar/issues"
   },
-  "homepage": "https://github.com/DuCalixte/react-native-selectable-list-with-sidebar#readme"
+  "homepage": "https://github.com/DuCalixte/react-native-selectable-list-with-sidebar#readme",
+  "peerDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.0",
+    "create-react-class": "^15.6.2",
+    "fbjs": "^0.8.16",
+    "graceful-fs": "^4.1.11",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-native": "^0.52.0",
+    "react-native-swipe-actions": "^0.6.0",
+    "react-test-renderer": "^16.2.0",
+    "yargs": "^10.1.1"
+  }
 }
