@@ -1,7 +1,7 @@
-import React, {Component, StyleSheet, View} = 'react';
+import React, {Component, StyleSheet, View} from 'react';
 // import ReactNative from 'react-native';
 import PropTypes from 'prop-types';
-const SectionList = require './SectionList';
+import SectionList from './SectionList';
 
 export default class SelectableListWithSidebar extends Component {
   constructor(props, context) {
