@@ -1,0 +1,14 @@
+{
+  "name": "react-native-selectable-list-with-sidebar",
+  "version": "1.0.0",
+  "description": "A section list with a sidebar alphabet that allows selection of a section without scrolling.",
+  "main": "index.js",
+  "repository": "git@github.com:DuCalixte/react-native-selectable-list-with-sidebar.git",
+  "author": "Stanley Calixte <DuCalixte@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-native": "^0.57.8"
+  }
+}
