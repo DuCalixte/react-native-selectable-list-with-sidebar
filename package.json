@@ -6,7 +6,7 @@
   "repository": "git@github.com:DuCalixte/react-native-selectable-list-with-sidebar.git",
   "author": "Stanley Calixte <DuCalixte@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerdependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-native": "^0.57.8"
