@@ -21,7 +21,7 @@ export default class SelectableListWithSidebar extends Component {
     return (
       <View style={{flex: 1}}>
         <View>
-          <Text>Hello world!</Text>
+          <Text>Hello world!!</Text>
         </View>
         <AlphabetPicker alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
       </View>
