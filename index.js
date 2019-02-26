@@ -1,3 +1,5 @@
-import SelectableListWithSidebar from './src/SelectableListWithSidebar';
+'use strict';
 
-export defaut SelectableListWithSidebar;
+var SelectableListWithSidebar = require('./src/SelectableListWithSidebar');
+
+module.exports = SelectableListWithSidebar;
