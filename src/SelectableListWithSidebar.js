@@ -14,24 +14,24 @@ import {
   View,
   Platform,
 } from 'react-native';
-// import AlphabetSidebar from './AlphabetSidebar';
+import AlphabetSidebar from './AlphabetSidebar';
 
 export default class SelectableListWithSidebar extends Component {
   render() {
-    // return (
-    //   <View style={{flex: 1}}>
-    //     <View>
-    //       <Text>Hello world!!</Text>
-    //     </View>
-    //     <AlphabetSidebar alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
-    //   </View>
-    // );
     return (
       <View style={{flex: 1}}>
         <View>
           <Text>Hello world!!</Text>
         </View>
+        <AlphabetSidebar alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
       </View>
     );
+    // return (
+    //   <View style={{flex: 1}}>
+    //     <View>
+    //       <Text>Hello world!!</Text>
+    //     </View>
+    //   </View>
+    // );
   }
 }
