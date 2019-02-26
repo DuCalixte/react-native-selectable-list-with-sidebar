@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text, PanResponder } from 'react-native';
 
 import SelectableLetter from './SelectableLetter';
-type Props {
-  alphabet: array
-}
-export default class AlphabetSidebar extends Component<Props> {
+// type Props {
+//   alphabet: array
+// }
+export default class AlphabetSidebar extends Component {
+  static propTypes = {
+    alphabet: PropTypes.array.isRequired,
+  };
   render() {
     const { alphabet } = this.props;
     this._alphabet = (

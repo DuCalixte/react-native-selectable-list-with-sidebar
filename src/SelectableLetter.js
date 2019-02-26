@@ -1,10 +1,13 @@
 import React, {PureComponent} from 'react';
 import {StyleSheet, Platform, Text} from 'react-native';
 
-type Props = {
-  letter: string
-};
-export default class SelectableLetter extends React.PureComponent<Props> {
+// type Props = {
+//   letter: string
+// };
+export default class SelectableLetter extends React.PureComponent {
+  static propTypes = {
+    letter: PropTypes.string.isRequired,
+  };
   render() {
     return (
       <Text style={styles.letter}>{this.props.letter}</Text>
