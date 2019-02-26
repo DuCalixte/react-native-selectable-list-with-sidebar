@@ -14,7 +14,7 @@ import {
   View,
   Platform,
 } from 'react-native';
-import AlphabetPicker from './AlphabetPicker';
+import AlphabetSidebar from './AlphabetSidebar';
 
 export default class SelectableListWithSidebar extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class SelectableListWithSidebar extends Component {
         <View>
           <Text>Hello world!!</Text>
         </View>
-        <AlphabetPicker alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
+        <AlphabetSidebar alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
       </View>
     );
   }
