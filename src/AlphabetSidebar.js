@@ -16,7 +16,7 @@ export default class AlphabetSidebar extends Component {
       alphabet.map((letter) => <SelectableLetter letter={letter} key={letter} />)
     );
     return (
-      <View style={styles.alphabet} ref='alphabetSidebar'>
+      <View style={styles.alphabet}>
         {this._alphabet}
       </View>
     );

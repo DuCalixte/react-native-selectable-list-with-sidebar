@@ -27,12 +27,5 @@ export default class SelectableListWithSidebar extends Component {
         <AlphabetSidebar alphabet={"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')} />
       </View>
     );
-    // return (
-    //   <View style={{flex: 1}}>
-    //     <View>
-    //       <Text>Hello world!!</Text>
-    //     </View>
-    //   </View>
-    // );
   }
 }
