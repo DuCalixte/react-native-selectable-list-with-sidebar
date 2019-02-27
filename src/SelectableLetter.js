@@ -1,5 +1,6 @@
 import React, {PureComponent} from 'react';
-import {StyleSheet, Platform, Text} from 'react-native';
+import { StyleSheet, Platform, View, Text, PanResponder } from 'react-native';
+import PropTypes from 'prop-types';
 
 // type Props = {
 //   letter: string
@@ -10,7 +11,7 @@ export default class SelectableLetter extends React.PureComponent {
   };
   render() {
     return (
-      <Text style={styles.letter}>{this.props.letter}</Text>
+      <Text>{this.props.letter}</Text>
     )
   }
 }

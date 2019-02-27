@@ -14,6 +14,7 @@ import {
   View,
   Platform,
 } from 'react-native';
+
 import AlphabetSidebar from './AlphabetSidebar';
 
 export default class SelectableListWithSidebar extends Component {
